@@ -1,0 +1,116 @@
+.section {
+  border-bottom: 1px black dotted;
+  margin-bottom: 20px;
+  height: 500px;
+}
+
+.smaller {
+  height: 400px;
+}
+
+.relimages {
+  position: relative;
+  height: 300px;
+  //margin: 20px 0;
+}
+
+.relimages img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.border {
+  border: white 5px solid;
+}
+
+.secondrow {
+  padding-top: 1em;
+}
+.secondrow p {
+  margin-left: 5%;
+}
+
+#doorway {
+  width: 24%;
+  left: 36%;
+  top: 195px;
+  z-index: 2;
+  border: white 5px solid;
+  -moz-transform: rotate(8deg);
+  -webkit-transform: rotate(8deg);
+}
+
+#water {
+  width: 20%;
+  left: 31%;
+  top: 30px;
+  z-index: 3;
+  border: white 5px solid;
+  -moz-transform: rotate(-8deg);
+  -webkit-transform: rotate(-8deg);
+}
+
+#skiing {
+  z-index: 0;
+  left: 10%;
+  width: 80%;
+}
+
+#cool {
+  width: 36%;
+  z-index: 1;
+}
+
+#network {
+  top: 130px;
+  z-index: 1;
+  left: -5%;
+  border: #CCC 5px solid;
+  width: 30%;
+  -moz-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+}
+
+body {
+  background: #CEEDED;
+  color: #555;
+}
+
+/*  Yammer  */
+#row-yammer {
+  height: 550px;
+}
+
+
+#row-quid {
+  height: 510px;
+}
+
+.black {
+  margin: -10px -10px;
+  background-color: black;
+}
+
+#apple {
+  padding-left: 11%;
+}
+
+#row-intro h1 {
+  font-size: 3em;
+  padding: 1em 0;
+}
+
+h4 {
+  padding-bottom: 1em;
+}
+
+p {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.emphasize {
+  font-weight: bold;
+  font-size: em;
+}
