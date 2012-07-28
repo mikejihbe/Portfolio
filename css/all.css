@@ -31,6 +31,7 @@ $green:     #859900;
 .section {
   border-bottom: 1px black dotted;
   margin-bottom: 20px;
+  padding-top: 20px;
   height: 550px;
 }
 
@@ -156,9 +157,11 @@ $green:     #859900;
   padding-left: 2em;
   font-family: 'Kotta One', Arial, sans-serif;
   font-weight: bolder;
+  
 }
 .quote p {
   font-size: 20px;
+  color: #DC322F;
 }
 
 .company-name {
@@ -166,7 +169,7 @@ $green:     #859900;
 }
 
 h4 {
-  color: #839496;
+  color: #B58900;
   padding-bottom: 1em;
 }
 
