@@ -1,6 +1,7 @@
 body {
   font-family: 'Andale Mono', 'Courier New', monospace;
-  background: #eee8d5;
+  /*background: #eee8d5;*/
+  background-image: url('../img/backgrounds/retina_wood_@2x.png');
   color: #586e75;
 }
 
