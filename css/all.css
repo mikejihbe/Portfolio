@@ -28,7 +28,9 @@ $blue:      #268bd2;
 $cyan:      #2aa198;
 $green:     #859900;
 */
-
+.container {
+  padding-top: 1.5em;
+}
 .row {
   clear: both;
   padding-bottom: 1em;
