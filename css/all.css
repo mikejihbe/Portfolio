@@ -29,15 +29,15 @@ $cyan:      #2aa198;
 $green:     #859900;
 */
 
+.row {
+  clear: both;
+  padding-bottom: 1em;
+}
+
 .section {
   border-bottom: 1px black dotted;
   margin-bottom: 20px;
   padding-top: 20px;
-  height: 550px;
-}
-
-.smaller {
-  height: 400px;
 }
 
 .relimages {
@@ -106,16 +106,6 @@ $green:     #859900;
   z-index: 1;
 }
 
-/*** YAMMER ROW ***/
-#row-yammer {
-  height: 550px;
-}
-
-/*** QUID ROW ***/
-#row-quid {
-  height: 510px;
-}
-
 .black {
   margin: -10px -10px;
   background-color: black;
@@ -155,7 +145,6 @@ $green:     #859900;
 }
 
 .quote {
-  padding-left: 2em;
   font-family: 'Kotta One', Arial, sans-serif;
   font-weight: bolder;
   

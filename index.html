@@ -69,8 +69,14 @@
     </div>
 
     <div class="container">
-      <div id="row-intro" class="row section">
-        <div class="span4">
+      <div id="row-intro" class="row section clearfix">
+        <div id="me-images" class="span7 relimages">
+          <img id="cool" src="img/cool.jpg"/>
+          <img id="skiing" src="img/skiing.jpg"/>
+          <img id="water" src="img/water.jpg"/>
+          <img id="doorway" src="img/doorway.jpg"/>
+        </div>
+        <div class="span4" style="margin:0;">
           <h1>&ldquo;Hi, I'm Mike&rdquo;</h1>
           <div class="row">
             <div class="span4">
@@ -80,17 +86,8 @@
             </div>
           </div>
         </div>
-        <div id="me-images" class="span8 relimages">
-          <img id="cool" src="img/cool.jpg">
-          <img id="skiing" src="img/skiing.jpg">
-          <img id="water" src="img/water.jpg">
-          <img id="doorway" src="img/doorway.jpg">
-        </div>
       </div>
-      <div id="row-mustwin" class="row section">
-        <div class="span8">
-          <a href="http://mustw.in"><img id="mustwin" class="border" src="img/mustwin.png"></a>
-        </div>
+      <div id="row-mustwin" class="row section clearfix">
         <div class="span4">
           <h1>Founder and Principal at <a class="company-name" href="http://mustw.in">MustWin</a></h1>
           <h4>2012-*:  Rails, Java, Javascript, NodeJS, HTML5, CSS</h4>
@@ -98,32 +95,11 @@
           <p>MustWin is my latest project.  We're a web-business strategic consultancy with a wide range skills applicable to most any web or mobile business.</p>
           <p>We can help with most technical problems including end-to-end product design and development, feature additions, improving conversion rates, SEO, scaling web systems, resolving performance issues, and even helping to build your team</p>
         </div>
-
-        <div class="row">
-          <div class="secondrow span7 ">
-          </div>
-          <div class="quote span4 offset1">
-              <!--<p>&ldquo;There will be a really awesome quote here about how great I am&rdquo; --Someone REALLY important</p>-->
-
-          </div>
-
-        </div>
-      </div>
-      <div class="row section smaller">
-        <div class="span4">
-          <h1>CTO and CoFounder at <a class="company-name" href="https://mantanks.com">Mantanks.com</a></h1>
-          <h4>2012: HTML5, CSS, Javascript, Ruby</h4>
-
-<p>Mantanks is the coolest way to make a custom tank top.  We've created a fun "bro" brand and we streamlined the creation of a custom tank top as much as possible.  Follow us on twitter <a href="http://twitter.com/mantanks">@mantanks</a> and create your first tank today!</p>
-
-<p>I built the whole thing in my free time!  This is definitely an ongoing project and I've had a lot of help from my cofounders with mastering the design.</p>
-
-        </div>
         <div class="span8">
-          <a href="https://mantanks.com"><img class="border" src="img/mantanks.png"/></a>
+          <a href="http://mustw.in"><img id="mustwin" class="border" src="img/mustwin.png"></a>
         </div>
       </div>
-      <div id="row-yammer" class="row section">
+      <div id="row-yammer" class="row section clearfix">
         <div class="span8">
           <a href="http://yammer.com"><img id="yammer" class="border" src="img/yammer.png"></a>
         </div>
@@ -134,18 +110,16 @@
           <p>Yammer is a pioneer of the Enterprise Social Networking space, now used by 85% of the Fortune 500.  While I was there we grew from 50 to 400 people, acquired more than 5 million active users, defeated big name competitors like Salesforce.com, and were acquired by Microsoft for $1.2 billion dollars.</p>
         </div>
 
-        <div class="row">
-          <div class="secondrow span7 ">
-          <p>I managed the files feature-set of Yammer.  You're using my code whenever you upload, view, share, or otherwise interact with a file.  I was also a founding member of the Infrastructure team, whose mandate was to improve performance, scalability and availability.  I improved homepage render time by ~50%, significantly improved site performance, and sharded our postgresql database.</p>
-          </div>
-          <div class="quote span4 offset1">
+        <div class="row secondrow clearfix">
+            <div class="span7">
+              <p>I managed the files feature-set of Yammer.  You're using my code whenever you upload, view, share, or otherwise interact with a file.  I was also a founding member of the Infrastructure team, whose mandate was to improve performance, scalability and availability.  I improved homepage render time by ~50%, significantly improved site performance, and sharded our postgresql database.</p>
+            </div>
+            <div class="quote span4 offset1">
               <p>&ldquo;There will be a really awesome quote here about how great I am&rdquo; --Someone REALLY important</p>
-
-          </div>
-
+            </div>
         </div>
       </div>
-      <div class="row section smaller">
+      <div class="row section clearfix">
         <div class="span4">
           <h1>CTO and CoFounder at <a class="company-name" href="https://mantanks.com">Mantanks.com</a></h1>
           <h4>2012: HTML5, CSS, Javascript, Ruby</h4>
@@ -159,7 +133,7 @@
           <a href="https://mantanks.com"><img class="border" src="img/mantanks.png"/></a>
         </div>
       </div>
-      <div id="row-quid" class="row section ">
+      <div id="row-quid" class="row section clearfix">
         <div class="span8 relimages">
           <a href="http://quid.com">
             <img id="network" src="img/network.png"/>
@@ -172,20 +146,22 @@
             <p>Quid is building a data aggregation, visualization and analysis platform focused on informing decision makers about private companies and emerging technology data.  </p>
         </div>
         <div class="row">
-          <div class="secondrow span7 ">
-            <p>While the lead engineer at Quid I led the development 2 Ruby on Rails applications and a data collection framework responsible for cost-effectively collecting millions of datapoints per day from a variety of sources and APIs.  I also managed most technical decision making, including hires, vendors, infrastructure, and feature design.</p>
-            <p>In the news!
-              <a href="http://www.businessweek.com/magazine/content/10_39/b4196043800321.htm">BusinessWeek</a>
-              <a href="http://techcrunch.com/2010/09/15/quid-emerges-from-stealth-to-democratize-private-data-from-technology-companies/">TechCrunch</a>
-            </p>
-        </div>
-        <div class="quote span4 offset1">
-            <p>&ldquo;If you have Mike on your team, you will have products that ship.  I was able to see his technical competency span from architecting databases to designing frameworks...Mike is the kind of person you want on your team.&rdquo; --Sam Purtill</p>
-
+          <div class="secondrow ">
+            <div class="span7">
+              <p>While the lead engineer at Quid I led the development 2 Ruby on Rails applications and a data collection framework responsible for cost-effectively collecting millions of datapoints per day from a variety of sources and APIs.  I also managed most technical decision making, including hires, vendors, infrastructure, and feature design.</p>
+              <p>In the news!
+                <a href="http://www.businessweek.com/magazine/content/10_39/b4196043800321.htm">BusinessWeek</a>
+                <a href="http://techcrunch.com/2010/09/15/quid-emerges-from-stealth-to-democratize-private-data-from-technology-companies/">TechCrunch</a>
+              </p>
+            </div>
+            <div class="quote span4 offset1">
+              <p>&ldquo;If you have Mike on your team, you will have products that ship.  I was able to see his technical competency span from architecting databases to designing frameworks...Mike is the kind of person you want on your team.&rdquo; --Sam Purtill</p>
+            </div>
+          </div>
         </div>
       </div>
       </div>
-      <div class="row section">
+      <div class="row section clearfix">
         <div class="span4">
           <h1>Software Design Engineer at <a class="company-name" href="http://apple.com">Apple</a></h1>
           <h4>2008: Ruby, Java, HTML, CSS</h4>
@@ -198,7 +174,7 @@
           <a href="http://apple.com"><img id="apple" src="img/3d_apple.jpeg"/></a>
         </div>
       </div>
-      <div class="row section">
+      <div class="row section clearfix">
         <div class="span8 ">
           <a href="http://amazon.com"><img class="border" id="amazon" src="img/amazon.png"/></a>
         </div>
@@ -219,7 +195,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script type=\"text/javascript\">
+    <script type="text/javascript">
 		  var _gaq = _gaq || [];
 		  _gaq.push(['_setAccount', 'UA-12378473-1']);
 		  _gaq.push(['_trackPageview']);
